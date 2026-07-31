@@ -19,7 +19,7 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"] // This path mapping allows for cleaner imports by using '@' as an alias for the 'src' directory. For example, instead of writing 'import Component from "../../components/Component"', you can write 'import Component from "@/components/Component"'.
     }
   },
   "include": [
